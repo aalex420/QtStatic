@@ -28,3 +28,5 @@ When Qt Static build is finished, open Qt Creator. Go to options and go to **"Bu
 Go to **"Kits"** section and add Qt Static Build the Qt Version.
 
 Now you can build static apps!
+
+For more informations, please visit <a href="https://wiki.qt.io/Building_a_static_Qt_for_Windows_using_MinGW" target="_blank">Build a Qt static</a>
