@@ -167,10 +167,13 @@ DEFINES += QT_STATIC_BUILD
 
     # Configure, compile and install Qt.
     Push-Location $QtSrcDir
-    cmd /c "configure.bat -static -debug-and-release -platform win32-g++ -prefix $QtDir `        -qt-zlib -qt-pcre -qt-libpng -qt-libjpeg -qt-freetype -opengl desktop -no-openssl `        -opensource -confirm-license `        -make libs -nomake tools -nomake examples -nomake tests"
+    cmd /c "configure.bat -static -debug-and-release -platform win32-g++ -prefix $QtDir `
+        -qt-zlib -qt-pcre -qt-libpng -qt-libjpeg -qt-freetype -opengl desktop -no-openssl `
+        -opensource -confirm-license `
+        -make libs -nomake tools -nomake examples -nomake tests"
 
-	# -jx, replace x with a number. The higher the number, the more busy the processor is. Recommended value: -j4
-    mingw32-make  -j4
+	# -j x, replace x with a number. The higher the number, the more busy the processor is. Recommended value: -j 4
+    mingw32-make  -j 4
     mingw32-make  install
     Pop-Location
 
