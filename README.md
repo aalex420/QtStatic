@@ -22,6 +22,8 @@ Open this script with an text editor and change these lines at your convenience:
 - At line 82: Set the directory of MinGW, by default path is **"C:\Qt\Tools\mingw530_32"**.
 - At line 256: Set the path of "7z.exe" (Example: **"C:\7-Zip\7z.exe"**).
 
+The archive file will be stored in **"src"** folder into your Qt path (Example: **"C:\Qt\src\qt-everywhere-opensource-src-5.9.3.zip"**)
+
 After that, launch the script by right-clicking the file and select **"Execute with PowerShell"**. **This process may take _several hours_**.
 
 When Qt Static build is finished, open Qt Creator. Go to options and go to **"Build and run"**. Go to **"Qt Versions"** and click "add" button, go to the Qt Static path (Example: **"C:\Qt\5.9.3Static\bin"**) and select **"qmake.exe"**.
