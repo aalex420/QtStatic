@@ -20,7 +20,7 @@ Open this script with an text editor and change these lines at your convenience:
 - At line 80: Set path where Qt will be installed (Example: **"C:\Qt\"**).
 - At line 81: Set the Qt folder name of the static version (Example: **"5.9.3Static"**).
 - At line 82: Set the directory of MinGW, by default path is **"C:\Qt\Tools\mingw530_32"**.
-- At line 256: Set the path of "7z.exe" (Example: **"C:\7-Zip\7z.exe"**).
+- At line 254 and 256: Set the path of "7z.exe" (Example: **"C:\7-Zip\7z.exe"**).
 
 The archive file will be stored in **"src"** folder into your Qt path (Example: **"C:\Qt\src\qt-everywhere-opensource-src-5.9.3.zip"**)
 
