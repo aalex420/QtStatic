@@ -8,8 +8,6 @@ Script that builds Qt in Static version
 Then you need :
  - PowerShell script. You can download it here: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=34595" target="_blank">Microsoft PowerShell</a>
  - <a href="http://www.7-zip.org" target="_blank">7Zip</a>.
- - <a href="https://www.python.org/downloads/windows/" target="_blank">Python</a>
- - <a href="http://strawberryperl.com/" target="_blank">Perl</a>
  - MinGW 5.3.0 (downloaded with <a href="https://www1.qt.io/download-open-source/" target="_blank">Qt online installer</a>)
 
 ---------------------------------------
