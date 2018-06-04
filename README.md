@@ -17,8 +17,8 @@ Then you need :
 Open this script with an text editor and change these lines at your convenience:
 
 - At line 79: Choose the Qt source URL (Example: **"http://download.qt.io/official_releases/qt/5.9/5.9.3/single/qt-everywhere-opensource-src-5.9.3.zip"**).
-- At line 80: Set path where Qt will be installed (Example: **"C:\Qt\"**).
-- At line 81: Set the Qt folder name of the static version (Example: **"5.9.3Static"**).
+- At line 80: Set path where Qt will be installed (Example: **"C:\Qt\Static"**).
+- At line 81: Set the Qt folder name of the static version (Example: **"5.9.3"**).
 - At line 82: Set the directory of MinGW, by default path is **"C:\Qt\Tools\mingw530_32"**.
 - At line 254 and 256: Set the path of "7z.exe" (Example: **"C:\7-Zip\7z.exe"**).
 
