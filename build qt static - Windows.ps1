@@ -77,9 +77,9 @@
 [CmdletBinding()]
 param(
     $QtSrcUrl = ("http://download.qt.io/official_releases/qt/5.9/5.9.3/single/qt-everywhere-opensource-src-5.9.3.zip"),
-    $QtStaticDir = "C:\Qt\",
-    $QtVersion = "5.9.3Static",
-    $MingwDir = "D:\Qt\Tools\mingw530_32",
+    $QtStaticDir = "C:\Qt\Static",
+    $QtVersion = "5.9.3",
+    $MingwDir = "C:\Qt\Tools\mingw530_32",
     [switch]$NoPause = $false
 )
 
@@ -251,9 +251,9 @@ function Download-File ([string]$Url, [string]$OutputFile)
 function Get-7zip
 {
     #Set 7zip path directory. Default : C:\7-Zip\
-    $Exe = "D:\7-Zip\7z.exe"
+    $Exe = "C:\7-Zip\7z.exe"
     if (-not (Test-Path $Exe)) {
-        $Exe = "D:\7-Zip\7z.exe"
+        $Exe = "C:\7-Zip\7z.exe"
     }
     if (-not (Test-Path $Exe)) {
         Exit-Script "7-zip not found, install it first, see http://www.7-zip.org/"
